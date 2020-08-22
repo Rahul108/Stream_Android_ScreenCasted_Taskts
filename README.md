@@ -95,24 +95,27 @@ I've changed the screen size with `-m 800` cause on default screen-cast it shows
 
 btw... the casted-screen should show like below (on both rotated views)...
 
-![](https://github.com/Rahul108/Stream_Android_ScreenCasted_Taskts_On_Ubuntu/blob/master/Files/Android_SC.png "=100px")
+![](https://github.com/Rahul108/Stream_Android_ScreenCasted_Taskts_On_Ubuntu/blob/master/Files/Android_SC.png)
 
-![](https://github.com/Rahul108/Stream_Android_ScreenCasted_Taskts_On_Ubuntu/blob/master/Files/Android_SC_2.png "=100px")
+
+![](https://github.com/Rahul108/Stream_Android_ScreenCasted_Taskts_On_Ubuntu/blob/master/Files/Android_SC_2.png)
 
 ### 5. Install OBS Studio
 ```sh
 sudo apt update
 sudo apt install obs-studio
 ```
-
 ### 6. Open OBS and capture the Screen-Cast of android device
 ```sh
 obs
 ```
-After runninig obs studio capture the Screen-Cast by adding sources. Click on `Window Capture (Xcomposite)` -> OK, then on Window dropdown it should show the name of screen-castung window on that dropdown, select that!
+After runninig obs studio capture the Screen-Cast by adding sources. Click on `Window Capture (Xcomposite)` -> OK, then on `Window dropdown` it should show the name of screen-castung window on that dropdown, select that!
 
+![](https://github.com/Rahul108/Stream_Android_ScreenCasted_Taskts_On_Ubuntu/blob/master/Files/capture.png)
 
 Then configure other stuffs like Output, Audio considering your PC specs. I've tested streaming on `Twitch` with very minimum conf in OBS cause my pc-conf is not that much good. Btw... it worked well !! 
+
+![](https://github.com/Rahul108/Stream_Android_ScreenCasted_Taskts_On_Ubuntu/blob/master/Files/OBS%20STUDIO.png)
 
 
 **Happy Streaming!!**
