@@ -62,8 +62,8 @@ sudo apt install snapd
 
 
 ### 3. Install Scrcpy snap package
-```shhttps://github.com/Rahul108/Stream_Android_ScreenCasted_Taskts_On_Ubuntu/blob/master/Files/Android_SC.png
-sudo snap install scrcpy=100x20
+```
+sudo snap install scrcpy
 ```
 ### 4. Start `scrcpy`
 ```sh
