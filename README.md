@@ -45,8 +45,49 @@ adb version
 sudo apt update
 sudo apt install snapd
 ```
+`snap` directory should be added on path variables automatically
+
 
 ### 3. Install Scrcpy snap package
 ```sh
 sudo snap install scrcpy
 ```
+### 4. Start `scrcpy`
+```sh
+scrcpy
+```➜ /snap/bin/scrcpy -m 800
+INFO: scrcpy 1.16 <https://github.com/Genymobile/scrcpy>
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+/usr/local/share/scrcpy/scrcpy-server: 1 file pushed. 2.2 MB/s (33622 bytes in 0.015s)
+[server] INFO: Device: Xiaomi POCOPHONE F1 (Android 10)
+INFO: Renderer: opengl
+INFO: OpenGL version: 3.0 Mesa 20.0.8
+INFO: Trilinear filtering enabled
+INFO: Initial texture: 384x800
+
+It should run `scrcpy`, if it doesn't run due to path_variable related issues, then manually run `scrcpy` by going on the `/snap` directory. On my case this is like
+```sh
+/snap/bin/scrcpy
+```
+sometimes adb version related issue occurs, on that case, stop the `adb` & `scrcpy.adb` (there's a change that it may run on background)
+```sh
+adb kill-server
+scrcpy.adb kill-server
+```
+
+after running the `scrcpy`, it should show something like this on terminal
+```sh
+➜ /snap/bin/scrcpy -m 800
+INFO: scrcpy 1.16 <https://github.com/Genymobile/scrcpy>
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+/usr/local/share/scrcpy/scrcpy-server: 1 file pushed. 2.2 MB/s (33622 bytes in 0.015s)
+[server] INFO: Device: Xiaomi POCOPHONE F1 (Android 10)
+INFO: Renderer: opengl
+INFO: OpenGL version: 3.0 Mesa 20.0.8
+INFO: Trilinear filtering enabled
+INFO: Initial texture: 384x800
+```
+
+![Screen-Cast of android device with scrcpy](/home/rahul/Pictures/scrcpy_on_terminal.png)
