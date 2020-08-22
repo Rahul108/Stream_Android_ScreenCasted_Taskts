@@ -80,7 +80,7 @@ INFO: Initial texture: 384x800
 
 I've changed the screen size with `-m 800` cause on default screen-cast it shows a little bit distorted.
 
-btw... the Casted screen should show like below...
+btw... the casted-screen should show like below (on both rotated view)...
 
 ![](https://github.com/Rahul108/Stream_Android_ScreenCasted_Taskts_On_Ubuntu/blob/master/Files/Android_SC.png "=100px")
 
