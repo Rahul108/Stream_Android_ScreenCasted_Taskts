@@ -39,6 +39,19 @@ export PATH="$PATH:$ANDROID_HOME/platform-tools"
 ```sh
 adb version
 ```
+**Connect Device:**
+Connect your android device with USB/Thunderbolt cable on PC, then run
+```sh
+adb devices
+```
+`USB Debugging` should be enabled on the android device, otherwise it won't work. 
+
+Btw... after running the command while connecting the device - it should show the device on terminal like this
+```sh
+➜ adb devices
+List of devices attached
+93889d84	device
+```
 
 ### 2. Install Snap
 ```sh
@@ -56,7 +69,7 @@ sudo snap install scrcpy=100x20
 ```sh
 scrcpy
 ```
-sometimes adb version related issue occurs, on that case, stop the `adb` & `scrcpy.adb` (there's a change that it may run on background)
+Sometimes adb version related issue occurs, on that case, stop the `adb` & `scrcpy.adb` (there's a chance that it may run on background)
 ```sh
 adb kill-server
 scrcpy.adb kill-server
@@ -80,7 +93,7 @@ INFO: Initial texture: 384x800
 
 I've changed the screen size with `-m 800` cause on default screen-cast it shows a little bit distorted.
 
-btw... the casted-screen should show like below (on both rotated view)...
+btw... the casted-screen should show like below (on both rotated views)...
 
 ![](https://github.com/Rahul108/Stream_Android_ScreenCasted_Taskts_On_Ubuntu/blob/master/Files/Android_SC.png "=100px")
 
