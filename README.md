@@ -49,8 +49,8 @@ sudo apt install snapd
 
 
 ### 3. Install Scrcpy snap package
-```sh
-sudo snap install scrcpy
+```shhttps://github.com/Rahul108/Stream_Android_ScreenCasted_Taskts_On_Ubuntu/blob/master/Files/Android_SC.png
+sudo snap install scrcpy=100x20
 ```
 ### 4. Start `scrcpy`
 ```sh
@@ -60,14 +60,14 @@ INFO: scrcpy 1.16 <https://github.com/Genymobile/scrcpy>
 * daemon not running; starting now at tcp:5037
 * daemon started successfully
 /usr/local/share/scrcpy/scrcpy-server: 1 file pushed. 2.2 MB/s (33622 bytes in 0.015s)
-[server] INFO: Device: Xiaomi POCOPHONE F1 (Android 10)
+[server] INFO: Device: Xiaomi POCOPHONE F1 (Android 10)https://github.com/Rahul108/Stream_Android_ScreenCasted_Taskts_On_Ubuntu/blob/master/Files/Android_SC.png
 INFO: Renderer: opengl
 INFO: OpenGL version: 3.0 Mesa 20.0.8
 INFO: Trilinear filtering enabled
 INFO: Initial texture: 384x800
-
+/home/rahul/Pictures/scrcpy_on_terminal.png
 It should run `scrcpy`, if it doesn't run due to path_variable related issues, then manually run `scrcpy` by going on the `/snap` directory. On my case this is like
-```sh
+```sh/home/rahul/Pictures/scrcpy_on_terminal.png
 /snap/bin/scrcpy
 ```
 sometimes adb version related issue occurs, on that case, stop the `adb` & `scrcpy.adb` (there's a change that it may run on background)
@@ -79,8 +79,10 @@ scrcpy.adb kill-server
 after running the `scrcpy`, it should show something like this on terminal
 ```sh
 ➜ /snap/bin/scrcpy -m 800
-INFO: scrcpy 1.16 <https://github.com/Genymobile/scrcpy>
-* daemon not running; starting now at tcp:5037
+INFO: scrcpy 1.16 <https://githu![Screen-Cast of android device with scrcpy](https://github.com/Rahul108/Stream_Android_ScreenCasted_Taskts_On_Ubuntu/blob/master/Files/Android_SC.png)
+b.com/Genymobile/scrcpy>
+* daemon not running; starting n![Screen-Cast of android device with scrcpy](https://github.com/Rahul108/Stream_Android_ScreenCasted_Taskts_On_Ubuntu/blob/master/Files/Android_SC.png)
+ow at tcp:5037
 * daemon started successfully
 /usr/local/share/scrcpy/scrcpy-server: 1 file pushed. 2.2 MB/s (33622 bytes in 0.015s)
 [server] INFO: Device: Xiaomi POCOPHONE F1 (Android 10)
@@ -90,4 +92,10 @@ INFO: Trilinear filtering enabled
 INFO: Initial texture: 384x800
 ```
 
-![Screen-Cast of android device with scrcpy](/home/rahul/Pictures/scrcpy_on_terminal.png)
+I've changed the screen size with `-m 800` cause on default screen-cast it shows a little bit distorted.
+
+btw... the Casted screen should show like below...
+
+![](https://github.com/Rahul108/Stream_Android_ScreenCasted_Taskts_On_Ubuntu/blob/master/Files/Android_SC.png "=100px")
+
+![](https://github.com/Rahul108/Stream_Android_ScreenCasted_Taskts_On_Ubuntu/blob/master/Files/Android_SC_2.png "=100px")
