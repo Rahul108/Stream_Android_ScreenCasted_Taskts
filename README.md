@@ -27,7 +27,7 @@ java -version
 ```
 **Install Android SDK**
 
-You can download the `Command line tools` from the official site of [Android Studio](https://developer.android.com/studio#downloads). Follow [developers site](https://developer.android.com/studio/command-line/sdkmanager) to know details about the command line tools.
+You can download the `Command line tools` from the official site of [Android Studio](https://developer.android.com/studio#downloads). You can go to the [developers site](https://developer.android.com/studio/command-line/sdkmanager) to know details about the command line tools.
 
 Set path on .bashrc according to where the sdk files were kept
 ```sh
