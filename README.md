@@ -11,6 +11,7 @@ sudo apt-get install android-tools-adb android-tools-fastboot
 ```
 
 or you can follow the steps of installing android sdk.
+
 **Install Java**
 ```sh
 sudo apt-get update
