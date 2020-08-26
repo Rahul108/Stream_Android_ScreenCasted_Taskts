@@ -41,6 +41,7 @@ export PATH="$PATH:$ANDROID_HOME/platform-tools"
 adb version
 ```
 **Connect Device:**
+
 Connect your android device with USB/Thunderbolt cable on PC, then run
 ```sh
 adb devices
