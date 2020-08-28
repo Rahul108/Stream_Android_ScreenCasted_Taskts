@@ -244,7 +244,7 @@ Install the apk file & give the audio record permission
 It should then capture the android device audio on pc.
 
 
-# Strea with Obs
+# Stream with Obs
 ## Configure
 I've captured the Windows (Screen-casting window) + Audio input (default) + Audio output (Default) .
 
