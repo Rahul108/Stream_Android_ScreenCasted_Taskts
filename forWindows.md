@@ -247,6 +247,7 @@ It should then capture the android device audio on pc.
 # Strea with Obs
 ## Configure
 I've captured the Windows (Screen-casting window) + Audio input (default) + Audio output (Default) .
-You can capture devices according to your available hardware equipments (like using an external mic)
+
+You can capture things according to your available hardware equipments (like using an external mic)
 
 **Happy Streaming**
